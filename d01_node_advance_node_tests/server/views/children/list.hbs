@@ -1,0 +1,27 @@
+<h2>Lista dzieci</h2>
+
+<ul>
+    {{#each childrenList}}
+        <li>
+            <form action="/child/gift/{{this.id}}?_method=PATCH" method="post">
+            <label>
+                {{this.name}}
+                <select name="giftId" id="">
+                    <option value="">brak</option>
+                    {{#each ../giftsList}}
+                        <option value="{{this.id}}" {{#if (equals this.id ../giftId)}}selected="selected"{{/if}}>{{this.name}}</option>
+                    {{/each}}
+                </select>
+            </label>
+                <button type="submit">Zapisz</button>
+            </form>
+        </li>
+    {{/each}}
+</ul>
+
+<h2>Dodaj dziecko do listy</h2>
+<form action="/child" method="POST">
+    <label for="name">Imię</label>
+    <input type="text" id="name" name="name">
+    <button type="submit">Dodaj</button>
+</form>
