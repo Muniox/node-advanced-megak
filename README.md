@@ -6,10 +6,10 @@
 - Dzień 2 - Podstawy testowania cd. 
 - Dzień 3 - Bibiloteki służące unit testom 
 - Dzień 4 - Wbudowane możliwości testowania cd. 
-- Dzień 5 - Mocki, TDD link
+- Dzień 5 - Mocki, TDD 
 
 #### Tydzień 2 - Advanced
-- Dzien 1 - Cybersec link
+- Dzien 1 - Cybersec 
 - Dzień 2 - Produkcja i pm2 
 - Dzień 3 - Plik Ecosystemu 
 - Dzień 4 - Git 
