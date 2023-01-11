@@ -1,5 +1,5 @@
 # node-advanced-megak 
-#### Etap 6 Node.js Advance - od 9.01.2023 do 10.02.2023
+#### Etap 6 Node.js Advanced - od 9.01.2023 do 10.02.2023
 
 #### Tydzień 1 - Advanced
 - Dzien 1 - Podstawy testowania 
