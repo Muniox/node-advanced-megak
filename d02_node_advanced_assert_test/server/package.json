@@ -1,11 +1,12 @@
 {
-  "name": "d02_node_advance_assert_test",
+  "name": "d02_node_advanced_assert_test",
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
   "scripts": {
     "start": "ts-node index.ts",
-    "start:dev": "tsnd index.ts"
+    "start:dev": "tsnd index.ts",
+    "test": "npx ts-node test.ts"
   },
   "keywords": [],
   "author": "",
