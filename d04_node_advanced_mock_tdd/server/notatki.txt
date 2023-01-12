@@ -1,0 +1,4 @@
+1. npm i -D ts-jest @types/jest
+2. npx ts-jest config:init
+
+16:07
