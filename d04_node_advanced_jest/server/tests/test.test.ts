@@ -19,23 +19,23 @@ test('adds 1 + 2 to equal 3', () => {
  */
 
 //porównywanie obiektów z funkcją .toStrictEqual
- test('adds 1 + 2 to equal 3', () => {
-
-    const person1 = {
-        firstName: 'Anna',
-        lastName: 'Testowa',
-        age: 123,
-    };
-
-    const person2 = {
-        ...person1,
-        lastName: 'Następna',
-        bio: 'lorem ipsum dolar sit amet...'
-    };
-
-    expect(person1).toStrictEqual(person2);
-
-});
+//  test('check two objects', () => {
+//
+//     const person1 = {
+//         firstName: 'Anna',
+//         lastName: 'Testowa',
+//         age: 123,
+//     };
+//
+//     const person2 = {
+//         ...person1,
+//         lastName: 'Następna',
+//         bio: 'lorem ipsum dolar sit amet...'
+//     };
+//
+//     expect(person1).toStrictEqual(person2);
+//
+// });
 
 test('check if argument is null', () => {
 
@@ -94,4 +94,15 @@ test('should check the same string', () => {
 test('should check the same string', () => {
 
     expect('Ala ma kota, a kot ma Alę').toMatch(/kot/);
+});
+
+test('should check the table to have included number', () => {
+
+    expect([1, 2, 3]).toContain(2);
+});
+
+//jak testować kod asynchroniczny oraz wykorzystywać zaprzeczenie .not
+test('should check the table to have included number', async() => {
+
+    expect([1, 2, 3]).not.toContain(777);
 });

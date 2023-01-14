@@ -1,0 +1,7 @@
+1. npm i -D ts-jest @types/jest
+2. npx ts-jest config:init
+
+22:50
+
+Więcej funkcji jest:
+https://jestjs.io/docs/expect
