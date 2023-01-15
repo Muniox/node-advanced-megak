@@ -1,7 +1,17 @@
 1. npm i -D ts-jest @types/jest
 2. npx ts-jest config:init
 
-22:50
+10:34
+
+zadanie 29:08
 
 Więcej funkcji jest:
 https://jestjs.io/docs/expect
+
+Czym są mocki?
+Czasami chcesz przetestować większą część systemu, która np. korzysta z baz danych itp.
+
+Problemem jest jednak to, że możesz mieć zmienne środowisko - np zawartość bazy danych.
+
+Mock to coś, co udaje daną część systemu, jednak zawiera przewidywalne dane. Np. mock bazy danych, która zawsze ma
+te same dane.
