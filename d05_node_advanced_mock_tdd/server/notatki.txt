@@ -15,3 +15,11 @@ Problemem jest jednak to, że możesz mieć zmienne środowisko - np zawartość
 
 Mock to coś, co udaje daną część systemu, jednak zawiera przewidywalne dane. Np. mock bazy danych, która zawsze ma
 te same dane.
+
+TDD polega na wielokrotnym powtarzaniu kilku kroków:
+1. Najpierw programista pisze automatyczny test sprawdzający dodawaną funkcjonalność. Test w tym momencie nie powienien się udać.
+2. Później następuje implementacja funkcjonalności. Wtym momencie wczesniej napisany test powinien się duać.
+3. W ostatnim ktroku programista dokonyhe refaktoryzacji napisanego kodu, żeby spełniał on oczekiwane standardy.
+
+istota TDD
+Napisanie testu zanim napiszesz kod właściwy - da Ci wgląd w potencjalne problemy oraz da Ci na końcu całościowy obraz implementacji.
